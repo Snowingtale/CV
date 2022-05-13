@@ -19,12 +19,14 @@ body {
     margin-top: 20px;
     border-radius: 10px;
     border: 1px;
-    border-color: gray;
-    box-shadow: 5px 10px #888888;
+    border-color: rgb(147, 230, 255);
+    box-shadow: 5px 10px #a9eafc;
     height: 100vh;
-    background-color: rgb(0, 208, 255);
+    background-color: rgb(209, 245, 253);
     text-align: center;
 }
+
+
 
 p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -37,4 +39,13 @@ button {
     margin-top: 50px;
     margin-bottom: 50px;
 
+}
+
+@media only screen and (max-width: 400px) {
+    .profile-header {
+        height: 200px;
+        background-color: rgb(122, 241, 252);
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
 }
