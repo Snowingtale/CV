@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { GuiComponent } from './gui/gui.component';
 
 @Component({
   selector: 'app-root',
